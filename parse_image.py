@@ -1,9 +1,9 @@
-import skimage as ski
+
 import cv2
 import pytesseract
-import openai
+
 from openai import OpenAI
-from PIL import Image
+
 
 def extract_text_from_image(img_path):
 
